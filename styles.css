@@ -1,0 +1,39 @@
+/* Basic styles for the body */
+body {
+
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Styling for paragraphs */
+p {
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Styling for links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Basic container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

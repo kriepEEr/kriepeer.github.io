@@ -1,15 +1,15 @@
 /* Basic styles for the body */
 body {
 
-    background-color: #f0f0f0;
+    background-color: #00ff00;
     margin: 0;
     padding: 0;
 }
 
 /* Styling for headings */
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     color: #333;
-    text-align: center;
+    text-align: right;
 }
 
 /* Styling for paragraphs */
@@ -20,9 +20,22 @@ p {
 }
 
 /* Styling for links */
+
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+
 a {
-    color: #007BFF;
-    text-decoration: none;
+    font-size: 2em; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: makes the text bold */
+    animation: rainbow 3s infinite; /* Adjust the duration as needed */
 }
 
 a:hover {

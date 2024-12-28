@@ -1,7 +1,8 @@
 /* Basic styles for the body */
 body {
 
-    background-color: #00ff00;
+    background-color: #04ff00;
+    background-image: repeating-linear-gradient(#04ff00, rgba(14, 14, 208, 0.945));
     margin: 0;
     padding: 0;
 }

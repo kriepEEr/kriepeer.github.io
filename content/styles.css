@@ -1,0 +1,55 @@
+/* Basic styles for the body */
+body {
+
+    background-color: #04ff00;
+    background-image: repeating-linear-gradient(#04ff00, rgba(14, 14, 208, 0.945));
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for headings */
+h1, h2, h3, h4, h5 {
+    color: #333;
+    text-align: right;
+}
+
+/* Styling for paragraphs */
+p {
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: right;
+}
+
+/* Styling for links */
+
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+
+a {
+    font-size: 2em; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: makes the text bold */
+    animation: rainbow 3s infinite; /* Adjust the duration as needed */
+    text-align: left;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Basic container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
